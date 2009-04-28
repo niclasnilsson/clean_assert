@@ -11,7 +11,7 @@ class Binding
       the_caller = /\`([^\']+)\'/.match(caller(1).first)
       m = "unknown"
       m = the_caller ? the_caller[1] : m
-      raise RuntimeError "Assertion '#{expression}' not satisfied in #{self.self()}##{m}"
+      raise "Assertion '#{expression}' not satisfied in #{self.self()}##{m}"
     end
     self
   end

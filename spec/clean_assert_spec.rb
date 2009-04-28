@@ -17,5 +17,17 @@ describe "clean assert" do
     assert / "name != nil" / "not name.empty?" / "age >= 21"
   end
 
+  def foo
+    begin
+      assert / "1 == 2"
+    rescue
+      
+    end
+  end
+
+  it "should work for regular methods" do
+    foo
+  end
+
 end
 

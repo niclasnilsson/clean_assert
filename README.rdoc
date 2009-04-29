@@ -20,9 +20,9 @@ a strained error message that you normally have to write. This is executable, De
 
 == INSTALL:
 
-* sudo gem install niclasnilsson-clean-assert
+  $ gem sources -a http://gems.github.com
+  $ sudo gem install niclasnilsson-clean-assert
 
-(which is not working yet)
 
 == LICENSE:
 

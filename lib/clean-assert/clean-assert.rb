@@ -1,4 +1,4 @@
-require '/Users/nicke/code/facets/lib/core/facets'
+require 'facets'
 
 module Kernel
   alias_method :assert, :binding

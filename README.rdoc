@@ -11,8 +11,10 @@ Example:
   assert / "name != nil" / "not name.empty?" / "age >= 21"
 
 This will do three separate assertion checks and will give you an error message that includes
-the broken assertion code, the class and in which method. No need for having first the actual assertion and
-a strained error message that you normally have to write. This is executable, Design by Contract style.
+the broken assertion code, the class and the method name. No need for having both the actual assertion and
+then a strained error message that you normally have to write to understand what broke. Also, due to it's terseness,
+you can afford having several guard clauses on one line instead of letting them take over your method, which keeps
+the signal-to-noise ratio sane.
 
 == FEATURES/PROBLEMS:
 

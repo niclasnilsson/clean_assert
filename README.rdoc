@@ -1,32 +1,34 @@
 = clean-assert
 
-* FIX (url)
+* http://github.com/niclasnilsson/clean-assert/
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A Ruby library to get really clean asserts.
+
+Example:
+
+  assert / "name != nil" / "not name.empty?" / "age >= 21"
+
+This will do three separate assertion checks and will give you an error message that includes
+the broken assertion code, the class and in which method. No need for having first the actual assertion and
+a strained error message that you normally have to write. This is executable, Design by Contract style.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
-
-== SYNOPSIS:
-
-  FIX (code sample of usage)
-
-== REQUIREMENTS:
-
-* FIX (list of requirements)
+* No known problems.
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install niclasnilsson-clean-assert
+
+(which is not working yet)
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Niclas Nilsson
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

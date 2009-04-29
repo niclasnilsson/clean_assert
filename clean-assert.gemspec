@@ -1,6 +1,3 @@
-(in /Users/nicke/code/clean-assert)
-# -*- encoding: utf-8 -*-
-
 Gem::Specification.new do |s|
   s.name = %q{clean-assert}
   s.version = "0.5.0"

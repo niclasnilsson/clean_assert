@@ -1,0 +1,12 @@
+History.txt
+Manifest.txt
+README.rdoc
+Rakefile
+clean-assert.gemspec
+lib/clean-assert.rb
+lib/clean-assert/clean-assert.rb
+script/console
+script/destroy
+script/generate
+spec/clean_assert_spec.rb
+spec/regular_methods.rb

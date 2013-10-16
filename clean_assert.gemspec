@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'clean-assert/version'
+require 'clean_assert/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "clean-assert"
-  spec.version       = Clean::Assert::VERSION
+  spec.name          = "clean_assert"
+  spec.version       = CleanAssert::VERSION
   spec.authors       = ["Niclas Nilsson"]
   spec.email         = ["niclas@niclasnilsson.se"]
   spec.description   = %q{A Ruby gem to get really clean asserts}
   spec.summary       = %q{A Ruby gem to get really clean asserts}
-  spec.homepage      = "https://github.com/niclasnilsson/clean-assert"
+  spec.homepage      = "https://github.com/niclasnilsson/clean_assert"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)

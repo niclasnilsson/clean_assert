@@ -1,6 +1,6 @@
 $LOAD_PATH << File.expand_path(File.join('..', 'lib'), File.dirname(__FILE__))
 
-require 'clean-assert'
+require 'clean_assert'
 
 class Binary
   @@binary_states = 2

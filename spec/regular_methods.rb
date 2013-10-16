@@ -1,4 +1,4 @@
-require 'clean-assert'
+require 'clean_assert'
 
 def method_with_valid_assert
   assert / "2 == 2"

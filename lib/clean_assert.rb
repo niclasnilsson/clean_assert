@@ -1,4 +1,4 @@
-require 'facets'
+require 'facets/binding/caller'
 
 module Kernel
   alias_method :assert, :binding

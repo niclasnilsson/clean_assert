@@ -6,7 +6,7 @@ A Ruby library to get really clean asserts.
 
 Example:
 
-  assert / "name != nil" / "not name.empty?" / "age >= 21"
+    assert / "name != nil" / "not name.empty?" / "age >= 21"
 
 This will do three separate assertion checks and will give you an error message that includes
 the broken assertion code, the class and the method name. No need for having both the actual assertion and

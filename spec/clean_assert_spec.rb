@@ -1,5 +1,6 @@
 $LOAD_PATH << File.expand_path(File.join('..', 'lib'), File.dirname(__FILE__))
 
+require 'spec_helper'
 require 'clean_assert'
 
 class Binary
